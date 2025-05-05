@@ -1,0 +1,13 @@
+{
+  "name": "css-experiments",
+  "description": "My experiments with CSS",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{html,css,js,jsx,ts,tsx,json,md}'"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
