@@ -5,10 +5,12 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Inter;
   background-color: #f5f7fa;
   padding: 40px;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -70,12 +72,12 @@ button {
 
 /* 1. Scale Down Effect */
 .scale-down:active {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 /* 2. Scale Up Effect */
 .scale-up:active {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* 3. Move Down Effect */
